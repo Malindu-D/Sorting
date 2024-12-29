@@ -6,7 +6,7 @@ Arr = array('i',[])
 
 #Assign number to Arr using ramdom function
 for x in range(5):
-    Arr.append(random.randint(0,100))
+    Arr.append(random.randint(10,100))
 
 #Print Generated Array
 print('Generated Array: ', end="")
